@@ -1,0 +1,751 @@
+ERROR - 2023-11-14 04:38:27 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=15712 in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'student', 3306, '', 0)
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'student', 3306, '', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#5 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 04:38:27 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `std_data`', [], false)
+ 3 APPPATH\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 04:47:30 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=21352 in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'student', 3306, '', 0)
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'student', 3306, '', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#5 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-14 04:47:30 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `std_data`', [], false)
+ 3 APPPATH\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-14 04:47:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-11-14 04:47:30 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=21352 in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'student', 3306, '', 0)
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'student', 3306, '', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#5 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 04:47:30 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `std_data`', [], false)
+ 3 APPPATH\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 06:55:52 --> mysqli_sql_exception: Table 'student.std_data' doesn't exist in engine in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-14 06:55:52 --> Table 'student.std_data' doesn't exist in engine
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `std_data`', [], false)
+ 2 APPPATH\Models\stdview_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Stdview.php(16): App\Models\stdview_model->stdmodel2()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:03:11 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:14:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\stdupdate_view.php on line 417.
+ 1 APPPATH\Views\stdupdate_view.php(417): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 417)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('225')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:16:08 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:26:13 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:26:17 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:26:28 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:26:38 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:34:28 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:34:36 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:34:48 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:34:57 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:35:42 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:35:51 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:37:11 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:37:20 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:37:28 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:39:08 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:39:12 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:39:52 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:40:43 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:40:47 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:41:31 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:42:08 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:42:12 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:44:16 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:44:20 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:44:58 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:45:02 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:47:50 --> Undefined variable $std
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $std', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(117): view('stdupdate_view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('225')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 17:51:16 --> Object of class App\Models\stdview_model could not be converted to string
+in APPPATH\Controllers\Stdview.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('225')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:23:35 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 115.
+ 1 APPPATH\Views\stdupdate_view.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:25:19 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 118.
+ 1 APPPATH\Views\stdupdate_view.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:25:41 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 118.
+ 1 APPPATH\Views\stdupdate_view.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:25:44 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 118.
+ 1 APPPATH\Views\stdupdate_view.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:26:18 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 117.
+ 1 APPPATH\Views\stdupdate_view.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 117)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:27:09 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:27:27 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:27:40 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:27:55 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:29:00 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:29:13 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:29:23 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:29:42 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:29:45 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:30:14 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regform')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:30:22 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:30:27 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('stdview')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:30:52 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:30:53 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regform')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 18:31:44 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(26): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

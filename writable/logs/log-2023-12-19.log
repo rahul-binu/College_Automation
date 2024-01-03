@@ -1,0 +1,352 @@
+INFO - 2023-12-19 16:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:30:51 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:35:25 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:35:27 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:37:06 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:37:08 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:38:43 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:39:19 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:39:21 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:42:16 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:44:03 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:44:10 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:44:34 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:45:02 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:45:08 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 16:50:23 --> Attempt to read property "parent_phn" on bool
+in APPPATH\Controllers\oStudent.php on line 78.
+ 1 APPPATH\Controllers\oStudent.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_phn" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 16:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 16:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 17:45:47 --> Too few arguments to function App\Controllers\oStudent::Tc(), 0 passed in C:\xampp\htdocs\clgproject\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\oStudent.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 17:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-19 17:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 18:21:06 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\oStudent.php on line 229.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 18:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 18:21:40 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\oStudent.php on line 229.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:22:03 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\oStudent.php on line 229.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 18:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 18:22:17 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\oStudent.php on line 229.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:24:56 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$parent_phn
+in APPPATH\Controllers\oStudent.php on line 229.
+ 1 APPPATH\Controllers\oStudent.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$parent_phn', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:26:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Controllers\oStudent.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:28:16 --> Invalid file: "your_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('your_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('your_view', [], true)
+ 3 APPPATH\Controllers\oStudent.php(242): view('your_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:28:29 --> Attempt to read property "register_no" on array
+in APPPATH\Views\TC_view.php on line 10.
+ 1 APPPATH\Views\TC_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "register_no" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('TC_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(242): view('TC_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:29:45 --> Attempt to read property "register_no" on array
+in APPPATH\Views\TC_view.php on line 10.
+ 1 APPPATH\Views\TC_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "register_no" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('TC_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(242): view('TC_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:30:12 --> Attempt to read property "student_father" on array
+in APPPATH\Views\TC_view.php on line 11.
+ 1 APPPATH\Views\TC_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "student_father" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('TC_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(242): view('TC_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:31:12 --> Undefined array key "register_no"
+in APPPATH\Views\TC_view.php on line 10.
+ 1 APPPATH\Views\TC_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "register_no"', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('TC_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(242): view('TC_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:34:00 --> Undefined array key "reguster_no"
+in APPPATH\Views\TC_view.php on line 11.
+ 1 APPPATH\Views\TC_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reguster_no"', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('TC_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(242): view('TC_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:34:10 --> Undefined array key "register_no"
+in APPPATH\Views\TC_view.php on line 11.
+ 1 APPPATH\Views\TC_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "register_no"', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('TC_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(242): view('TC_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:37:33 --> Attempt to read property "resultID" on array
+in APPPATH\Controllers\oStudent.php on line 229.
+ 1 APPPATH\Controllers\oStudent.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "resultID" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:39:42 --> Attempt to read property "resultID" on array
+in APPPATH\Controllers\oStudent.php on line 229.
+ 1 APPPATH\Controllers\oStudent.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "resultID" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\oStudent.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:42:39 --> Undefined variable $register_no
+in APPPATH\Views\TC_view.php on line 11.
+ 1 APPPATH\Views\TC_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $register_no', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\TC_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('TC_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(242): view('TC_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->Tc()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

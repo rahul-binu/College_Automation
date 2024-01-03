@@ -1,0 +1,457 @@
+INFO - 2023-12-14 13:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:08:05 --> Invalid file: "staffreg_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staffreg_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffreg_view', [], true)
+ 3 APPPATH\Controllers\Index.php(32): view('staffreg_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Index->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:08:32 --> Invalid file: "staffreg_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staffreg_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffreg_view', [], true)
+ 3 APPPATH\Controllers\Index.php(32): view('staffreg_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Index->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:17:24 --> Attempt to read property "username" on bool
+in APPPATH\Views\student_view.php on line 74.
+ 1 APPPATH\Views\student_view.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 74)
+ 2 APPPATH\Views\editprof_view.php(2): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\editprof_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('editprof_view', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(47): view('editprof_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->editprof()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:17:59 --> Attempt to read property "username" on bool
+in APPPATH\Views\student_view.php on line 74.
+ 1 APPPATH\Views\student_view.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on bool', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 74)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student_view', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('student_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 14:22:20 --> Invalid file: "staffreg_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staffreg_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffreg_view', [], true)
+ 3 APPPATH\Controllers\Index.php(32): view('staffreg_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Index->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:45:37 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\stdupdate_view.php on line 120.
+ 1 APPPATH\Views\stdupdate_view.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdupdate_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdupdate_view', [], true)
+ 5 APPPATH\Controllers\oStaff.php(194): view('stdupdate_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStaff->update('regfrom1.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStaff))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 15:09:29 --> Undefined variable $userdata
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\Regform_view.php(3): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\Regform_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Regform_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(188): view('Regform_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 15:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 15:13:07 --> Undefined variable $userdata
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\Regform_view.php(3): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\Regform_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Regform_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(188): view('Regform_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 15:13:36 --> Undefined variable $userdata
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\Regform_view.php(3): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\Regform_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Regform_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(188): view('Regform_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 15:13:38 --> Undefined variable $userdata
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\Regform_view.php(3): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\Regform_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Regform_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(188): view('Regform_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 15:15:22 --> Undefined variable $userdata
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\Regform_view.php(3): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\Regform_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Regform_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(188): view('Regform_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 16:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:01:39 --> Undefined variable $userdata
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdata', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(61): view('stddata_view')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:30:23 --> Undefined property: stdClass::$username
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(67): view('stddata_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:36:02 --> Undefined property: stdClass::$username
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(67): view('stddata_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:36:15 --> Undefined property: stdClass::$student_name
+in APPPATH\Views\stddata_view.php on line 30.
+ 1 APPPATH\Views\stddata_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$student_name', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(67): view('stddata_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:37:34 --> Undefined property: stdClass::$username
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(67): view('stddata_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:38:55 --> Undefined property: stdClass::$username
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(67): view('stddata_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:38:56 --> Undefined property: stdClass::$username
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(67): view('stddata_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:39:06 --> Undefined property: stdClass::$username
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(67): view('stddata_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:40:51 --> Undefined property: stdClass::$username
+in APPPATH\Views\student_view.php on line 87.
+ 1 APPPATH\Views\student_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php', 87)
+ 2 APPPATH\Views\stddata_view.php(5): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\student_view.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 6 APPPATH\Controllers\oStudent.php(77): view('stddata_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:09:04 --> Undefined variable $row
+in APPPATH\Views\stddata_view.php on line 323.
+ 1 APPPATH\Views\stddata_view.php(323): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php', 323)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(79): view('stddata_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:27:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\oStudent.php(69): CodeIgniter\Model->__call('getLoggedUserfam', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:30:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\oStudent.php(69): CodeIgniter\Model->__call('getLoggedUserfam', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:35:21 --> Undefined property: stdClass::$student_father
+in APPPATH\Views\stddata_view.php on line 449.
+ 1 APPPATH\Views\stddata_view.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$student_father', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php', 449)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(81): view('stddata_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:36:09 --> Undefined property: stdClass::$student_father
+in APPPATH\Views\stddata_view.php on line 449.
+ 1 APPPATH\Views\stddata_view.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$student_father', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php', 449)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(81): view('stddata_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:36:52 --> Undefined property: stdClass::$student_father
+in APPPATH\Views\stddata_view.php on line 449.
+ 1 APPPATH\Views\stddata_view.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$student_father', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php', 449)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(79): view('stddata_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:39:28 --> Undefined property: stdClass::$student_father
+in APPPATH\Views\stddata_view.php on line 449.
+ 1 APPPATH\Views\stddata_view.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$student_father', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php', 449)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(79): view('stddata_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:49:03 --> Invalid file: "staffreg_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staffreg_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffreg_view', [], true)
+ 3 APPPATH\Controllers\Index.php(32): view('staffreg_view', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Index->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 18:50:05 --> Undefined property: stdClass::$student_father
+in APPPATH\Views\stddata_view.php on line 449.
+ 1 APPPATH\Views\stddata_view.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$student_father', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php', 449)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stddata_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stddata_view', [], true)
+ 5 APPPATH\Controllers\oStudent.php(79): view('stddata_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\oStudent->dataview()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\oStudent))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 18:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

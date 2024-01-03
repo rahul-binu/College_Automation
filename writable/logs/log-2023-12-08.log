@@ -1,0 +1,621 @@
+ERROR - 2023-12-08 08:08:39 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajlaykumappr7...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajlaykumappr7...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->index()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 08:08:40 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajlaykumappr73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajlaykumappr73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(26): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 08:09:57 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->index()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 08:09:58 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(26): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 09:51:48 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(47): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 09:51:48 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmailcom', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmailcom', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(47): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 09:52:33 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(47): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 09:52:33 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmailcom', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmailcom', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(47): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 09:53:22 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(47): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 09:53:22 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmailcom', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmailcom', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(47): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 09:55:40 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(47): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 09:55:40 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(47): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 09:56:27 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(47): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 09:56:27 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(47): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 09:57:05 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajlaykumappr7...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajlaykumappr7...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(47): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 09:57:05 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajlaykumappr73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajlaykumappr73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(47): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 10:01:17 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 10:01:17 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmailcom', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmailcom', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 10:01:57 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajlaykumappr7...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajlaykumappr7...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 10:01:57 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajlaykumappr73@gmailcom', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajlaykumappr73@gmailcom', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 10:04:15 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(51): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 10:04:15 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(51): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 10:04:53 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(51): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 10:04:53 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(51): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 10:05:15 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(51): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 10:05:15 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(51): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 16:07:08 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\TestEmail.php on line 23.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Testemail', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Testemail')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Testemail')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 16:09:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:09:36 --> 220 smtp.gmail.com ESMTP u7-20020a17090282c700b001cfc19c2d01sm1860748plz.296 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.70.197.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u7-20020a17090282c700b001cfc19c2d01sm1860748plz.296 - gsmtp
+
+ERROR - 2023-12-08 16:10:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:10:46 --> 220 smtp.gmail.com ESMTP l7-20020a170902f68700b001d1d8f654ccsm1858725plg.31 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.70.197.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l7-20020a170902f68700b001d1d8f654ccsm1858725plg.31 - gsmtp
+
+ERROR - 2023-12-08 16:13:36 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:13:36 --> Exit status code: 1
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-08 16:13:56 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:13:56 --> Exit status code: 1
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-08 16:14:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:14:11 --> 220 smtp.gmail.com ESMTP 24-20020a17090a001800b00286579ea46dsm2170354pja.54 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.70.197.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 24-20020a17090a001800b00286579ea46dsm2170354pja.54 - gsmtp
+
+ERROR - 2023-12-08 16:25:47 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A00010B:SSL routines::wrong version number in C:\xampp\htdocs\clgproject\system\Email\Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1883)
+#1 C:\xampp\htdocs\clgproject\system\Email\Email.php(1883): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 60)
+#2 C:\xampp\htdocs\clgproject\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\clgproject\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\clgproject\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\clgproject\app\Controllers\TestEmail.php(25): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Testemail->index()
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testemail))
+#8 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-08 16:25:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:25:48 --> 
+ERROR - 2023-12-08 16:30:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:30:22 --> 220 smtp.gmail.com ESMTP d1-20020a170902728100b001d087820175sm1888585pll.40 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.70.197.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d1-20020a170902728100b001d087820175sm1888585pll.40 - gsmtp
+
+ERROR - 2023-12-08 16:51:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 16:51:11 --> 220 smtp.gmail.com ESMTP 12-20020a170902ee4c00b001d0c134dc2dsm1917590plo.77 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [103.70.197.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 12-20020a170902ee4c00b001d0c134dc2dsm1917590plo.77 - gsmtp
+
+INFO - 2023-12-08 17:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 17:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-08 17:23:04 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 17:23:04 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-08 17:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-08 17:24:05 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 17:24:05 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykujmar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykujmar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-08 17:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 17:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 17:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 17:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-08 17:25:15 --> mysqli_sql_exception: Table 'std.staff' doesn't exist in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\clgproject\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clgproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykumar73@g...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\clgproject\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykumar73@g...', Array, Array)
+#7 C:\xampp\htdocs\clgproject\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\clgproject\app\Controllers\Cc.php(104): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Cc->register()
+#10 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+#11 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-08 17:25:15 --> Table 'std.staff' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `staff`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('ksajaykumar73@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ksajaykumar73@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Cc.php(104): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-08 17:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-08 17:27:53 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Cc.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 17:27:53 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Cc.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cc->register()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cc))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-08 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 17:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

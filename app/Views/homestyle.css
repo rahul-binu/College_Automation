@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.con {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(194, 200, 207);
+    box-shadow: 2px 2px 10px rgb(29, 37, 45);
+}

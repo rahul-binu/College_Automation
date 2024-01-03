@@ -1,0 +1,44 @@
+CRITICAL - 2023-11-01 17:19:16 --> Undefined variable $row
+in APPPATH\Views\stdview_view.php on line 259.
+ 1 APPPATH\Views\stdview_view.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 259)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(58): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 17:19:20 --> Undefined variable $row
+in APPPATH\Views\stdview_view.php on line 259.
+ 1 APPPATH\Views\stdview_view.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 259)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(58): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 17:23:58 --> Undefined variable $row
+in APPPATH\Views\stdview_view.php on line 259.
+ 1 APPPATH\Views\stdview_view.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 259)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(59): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 17:24:00 --> Undefined variable $row
+in APPPATH\Views\stdview_view.php on line 259.
+ 1 APPPATH\Views\stdview_view.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 259)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(59): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

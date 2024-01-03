@@ -1,0 +1,388 @@
+CRITICAL - 2023-10-26 07:33:10 --> Undefined variable $result
+in APPPATH\Views\stdview_view.php on line 9.
+ 1 APPPATH\Views\stdview_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(17): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:35:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\stdview_view.php on line 11.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 4 APPPATH\Controllers\Stdview.php(17): view('stdview_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:35:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\stdview_view.php on line 11.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 4 APPPATH\Controllers\Stdview.php(17): view('stdview_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:54:56 --> Undefined property: stdClass::$title
+in APPPATH\Controllers\Stdview.php on line 29.
+ 1 APPPATH\Controllers\Stdview.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:55:32 --> Undefined property: stdClass::$title
+in APPPATH\Controllers\Stdview.php on line 29.
+ 1 APPPATH\Controllers\Stdview.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:55:55 --> Undefined property: stdClass::$title
+in APPPATH\Controllers\Stdview.php on line 29.
+ 1 APPPATH\Controllers\Stdview.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:55:56 --> Undefined property: stdClass::$title
+in APPPATH\Controllers\Stdview.php on line 29.
+ 1 APPPATH\Controllers\Stdview.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:59:03 --> Attempt to read property "sname" on array
+in APPPATH\Controllers\Stdview.php on line 46.
+ 1 APPPATH\Controllers\Stdview.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sname" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 07:59:04 --> Attempt to read property "sname" on array
+in APPPATH\Controllers\Stdview.php on line 46.
+ 1 APPPATH\Controllers\Stdview.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sname" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:00:30 --> Attempt to read property "sname" on array
+in APPPATH\Controllers\Stdview.php on line 39.
+ 1 APPPATH\Controllers\Stdview.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sname" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:01:27 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('User')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('User')
+ 3 APPPATH\Controllers\Stdview.php(26): CodeIgniter\Database\BaseResult->getCustomResultObject('User')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:02:41 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, array given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('array')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('array')
+ 3 APPPATH\Controllers\Stdview.php(26): CodeIgniter\Database\BaseResult->getCustomResultObject('array')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:03:08 --> CodeIgniter\Database\BaseResult::getRowArray(): Argument #1 ($n) must be of type int, string given, called in C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php on line 26
+in SYSTEMPATH\Database\BaseResult.php on line 321.
+ 1 APPPATH\Controllers\Stdview.php(26): CodeIgniter\Database\BaseResult->getRowArray('array')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:03:53 --> Attempt to read property "sname" on string
+in APPPATH\Controllers\Stdview.php on line 39.
+ 1 APPPATH\Controllers\Stdview.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sname" on string', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:03:54 --> Attempt to read property "sname" on string
+in APPPATH\Controllers\Stdview.php on line 39.
+ 1 APPPATH\Controllers\Stdview.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sname" on string', 'C:\\xampp\\htdocs\\clgproject\\app\\Controllers\\Stdview.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:29:58 --> Undefined variable $query
+in APPPATH\Views\stdview_view.php on line 16.
+ 1 APPPATH\Views\stdview_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(19): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:39:04 --> include(sidenav2.php): Failed to open stream: No such file or directory
+in APPPATH\Views\stdview_view.php on line 4.
+ 1 APPPATH\Views\stdview_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(sidenav2.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 4)
+ 2 APPPATH\Views\stdview_view.php(4): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 6 APPPATH\Controllers\Stdview.php(19): view('stdview_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:41:41 --> include(sidenav2.php): Failed to open stream: No such file or directory
+in APPPATH\Views\stdview_view.php on line 52.
+ 1 APPPATH\Views\stdview_view.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(sidenav2.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 52)
+ 2 APPPATH\Views\stdview_view.php(52): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 6 APPPATH\Controllers\Stdview.php(19): view('stdview_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:41:42 --> include(sidenav2.php): Failed to open stream: No such file or directory
+in APPPATH\Views\stdview_view.php on line 52.
+ 1 APPPATH\Views\stdview_view.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(sidenav2.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 52)
+ 2 APPPATH\Views\stdview_view.php(52): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 6 APPPATH\Controllers\Stdview.php(19): view('stdview_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:52:26 --> include(sidenav2.php): Failed to open stream: No such file or directory
+in APPPATH\Views\stdview_view.php on line 6.
+ 1 APPPATH\Views\stdview_view.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(sidenav2.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 6)
+ 2 APPPATH\Views\stdview_view.php(6): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 6 APPPATH\Controllers\Stdview.php(19): view('stdview_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 08:52:27 --> include(sidenav2.php): Failed to open stream: No such file or directory
+in APPPATH\Views\stdview_view.php on line 6.
+ 1 APPPATH\Views\stdview_view.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(sidenav2.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 6)
+ 2 APPPATH\Views\stdview_view.php(6): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 6 APPPATH\Controllers\Stdview.php(19): view('stdview_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 16:51:48 --> Too few arguments to function App\Models\stdview_model::stdmodel(), 0 passed in C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php on line 18 and exactly 1 expected
+in APPPATH\Models\stdview_model.php on line 10.
+ 1 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 17:24:45 --> mysqli_sql_exception: Unknown column '$adno' in 'where clause' in C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clgproject\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from s...', 0)
+#1 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 C:\xampp\htdocs\clgproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 C:\xampp\htdocs\clgproject\app\Models\stdview_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 C:\xampp\htdocs\clgproject\app\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(NULL)
+#5 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(919): App\Controllers\Stdview->index()
+#6 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+#7 C:\xampp\htdocs\clgproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clgproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-26 17:24:45 --> Unknown column '$adno' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\stdview_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from stdbasicinfo2 where adno=$adno')
+ 2 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 17:41:18 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\stdview_view.php on line 324.
+ 1 APPPATH\Views\stdview_view.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 324)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(19): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 17:51:27 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Models\stdview_model.php on line 38.
+ 1 APPPATH\Models\stdview_model.php(38): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 17:51:50 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Models\stdview_model.php on line 25.
+ 1 APPPATH\Models\stdview_model.php(25): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(444)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 17:59:37 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Models\stdview_model.php on line 27.
+ 1 APPPATH\Models\stdview_model.php(27): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 17:59:49 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Models\stdview_model.php on line 27.
+ 1 APPPATH\Models\stdview_model.php(27): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:00:08 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Models\stdview_model.php on line 27.
+ 1 APPPATH\Models\stdview_model.php(27): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:02:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Models\stdview_model.php on line 27.
+ 1 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:04:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Models\stdview_model.php on line 19.
+ 1 APPPATH\Controllers\Stdview.php(18): App\Models\stdview_model->stdmodel(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:12:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Models\stdview_model.php on line 19.
+ 1 APPPATH\Controllers\Stdview.php(24): App\Models\stdview_model->stdmodel('444')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:15:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Models\stdview_model.php on line 19.
+ 1 APPPATH\Controllers\Stdview.php(24): App\Models\stdview_model->stdmodel('444')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:18:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Models\stdview_model.php on line 19.
+ 1 APPPATH\Controllers\Stdview.php(24): App\Models\stdview_model->stdmodel('444')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:19:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Models\stdview_model.php on line 19.
+ 1 APPPATH\Controllers\Stdview.php(24): App\Models\stdview_model->stdmodel('444')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:19:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Models\stdview_model.php on line 19.
+ 1 APPPATH\Controllers\Stdview.php(24): App\Models\stdview_model->stdmodel('444')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:21:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Models\stdview_model.php on line 19.
+ 1 APPPATH\Controllers\Stdview.php(24): App\Models\stdview_model->stdmodel('444')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:21:51 --> Attempt to read property "adno" on array
+in APPPATH\Views\stdview_view.php on line 330.
+ 1 APPPATH\Views\stdview_view.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "adno" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 330)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(35): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:23:24 --> Attempt to read property "adno" on array
+in APPPATH\Views\stdview_view.php on line 330.
+ 1 APPPATH\Views\stdview_view.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "adno" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 330)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(35): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:26:49 --> Attempt to read property "adyear" on array
+in APPPATH\Views\stdview_view.php on line 333.
+ 1 APPPATH\Views\stdview_view.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "adyear" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 333)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(35): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:46:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\stdview_view.php on line 330.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 4 APPPATH\Controllers\Stdview.php(29): view('stdview_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:46:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\stdview_view.php on line 330.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 4 APPPATH\Controllers\Stdview.php(29): view('stdview_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:53:21 --> Attempt to read property "adno" on array
+in APPPATH\Views\stdview_view.php on line 365.
+ 1 APPPATH\Views\stdview_view.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "adno" on array', 'C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php', 365)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\clgproject\\app\\Views\\stdview_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('stdview_view', [], true)
+ 5 APPPATH\Controllers\Stdview.php(29): view('stdview_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Stdview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stdview))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

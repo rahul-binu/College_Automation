@@ -1,0 +1,39 @@
+#newStdFee a {
+    color: black;
+    text-decoration: none;
+}
+
+#table-container {
+    overflow-x: auto;
+}
+
+@media print {
+    * {
+        visibility: hidden;
+    }
+
+    #tableAction,
+    #serialNumber {
+        display: none;
+    }
+
+    #table-container * {
+        visibility: visible;
+    }
+
+    #table-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+@media induvidualDetailsPrint {
+    * {
+        visibility: hidden;
+    }
+
+    .model {
+        visibility: visible;
+    }
+}
