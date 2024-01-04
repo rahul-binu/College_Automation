@@ -271,7 +271,8 @@ tr:hover td{
                             
                         
 
-<?php    $i=1; ?> 
+<?php
+if(!empty($std)){    $i=1; ?> 
     <?php foreach ($std as $row) : ?>
 
 
@@ -314,8 +315,11 @@ tr:hover td{
             </tr>
 
             <?php    $i++; ?>
-            <?php endforeach;?>
+            <?php endforeach;
+            }else {
+                ?>
             <tr><td colspan='13'>    <h2 id="noRecords" style="display: none;">No records found.</h2></td></tr>
+            <?php }?>
                           </tbody>
                         </table>
                       

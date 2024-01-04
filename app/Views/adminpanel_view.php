@@ -41,7 +41,7 @@ include('cdn.php');
 </head>
 <body>
 <div class="container pt-5 mt-5 ms-5 ps-5">
-    <a href="/clgproject/oStaff/addstaff">
+    <a href="<?= base_url()?>oStaff/addstaff">
 <div class="card ps-3">
   <div class="card-body ">
     <h5 class="card-title ms-4">Add Staff</h5>
@@ -49,7 +49,7 @@ include('cdn.php');
   </div>
 </div>
 </a>
-<a href="/clgproject/oStaff/usersview">
+<a href="<?= base_url() ?>oStaff/usersview">
 <div class="card mt-5 ps-3">
   <div class="card-body ">
     <h5 class="card-title">Users view</h5>

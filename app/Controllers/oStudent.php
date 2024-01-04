@@ -178,7 +178,7 @@ $mergedData = (array)$data['userdata'] + (array)$data['userdata1'] + (array)$dat
 
            $rules = [
                'email' => 'required|valid_email',
-               'adno' => 'is_unique[std_data.admission_no]',
+               'adno' => 'is_unique[student.admission_no]',
    
            ];
 
@@ -240,16 +240,11 @@ $mergedData = (array)$data['userdata'] + (array)$data['userdata1'] + (array)$dat
 
                    'distance_to_clg' => $this->request->getVar('clgtoresdis'),
                    'parent_phn' => $this->request->getVar('pcontact'),
-
-
-
                ];
 
 
 
                $parent_data = [
-
-
                    
                    'student_father' => $this->request->getVar('sfather'),
                    'student_mother' => $this->request->getVar('smother'),
@@ -278,6 +273,7 @@ $mergedData = (array)$data['userdata'] + (array)$data['userdata1'] + (array)$dat
                if ($this->Regform_model->createUser($student_data)) {
                    // echo "data inserted";
                    echo "<script>alert('student added');</script>";
+                   //return redirect()->To('/feemancontroller/studentFeeView');
 
                } else {
                    echo "ERROR";

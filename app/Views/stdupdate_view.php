@@ -174,7 +174,7 @@ html, body {
          
          <div class="col-md-4">
             <label for="inputreg" class="form-label">Year of Admission</label >
-            <input type="number" class="form-control" id="inputreg" name="yearofad" value="<?= $row['admission_year'];?>">
+            <input type="number" class="form-control" id="inputreg" name="yearofad" value="<?= $row['yearOfAdmission'];?>">
           </div>
 
           <div class="col-md-4">

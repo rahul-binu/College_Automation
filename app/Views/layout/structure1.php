@@ -111,7 +111,7 @@
     </div>
 
     <div class="sidenav" id="mySidenav">
-        <a href="<?= base_url() ?>FeeManController/index" class="nav-link align-middle mx-1 px-2" id="homeButton">
+        <a href="<?= base_url() ?>oStaff" class="nav-link align-middle mx-1 px-2" id="homeButton">
             <i class="fs-4 bi-house"></i> <span>Home</span>
         </a>
         <a href="/uproject/" class="nav-link px-2 mx-1 align-middle">

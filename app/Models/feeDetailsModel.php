@@ -15,7 +15,7 @@ class feeDetailsModel extends Model
     {
         //fetch fee details form db
         $db = \Config\Database::connect();
-        $query = $db->query('select B.SlNo,A.fee_group, A.fee_head ,B.program,B.yearOfAdmission ,B.accadamicYear  ,B.status ,B.applicableFrom, B.applicableTill ,B.collectionType, B.totalAmount, B.collectionRemark from college_automation.fee_master A JOIN college_automation.fee_settings B ON A.fee_head=B.fee_head');
+        $query = $db->query('select B.SlNo,A.fee_group, A.fee_head ,B.programme,B.yearOfAdmission ,B.accadamicYear  ,B.status ,B.applicableFrom, B.applicableTill ,B.collectionType, B.totalAmount, B.collectionRemark from college_automation.fee_master A JOIN college_automation.fee_settings B ON A.fee_head=B.fee_head');
         //
         $result = $query->getResult();
         if (count($result) > 0) {

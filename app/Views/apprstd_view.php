@@ -274,7 +274,7 @@ tr:hover td{
             <td class="d-flex justify-content-center"> <?= $row['admission_no']; ?></td>
             <td > <?= $row['student_name']; ?></td>
                 <td > <?=  $row['register_no'];?></td>
-                <td > <?=  $row['admission_year'];?></td>
+                <td > <?=  $row['yearOfAdmission'];?></td>
                 <td > <?=  $row['program'];?></td>
                 <td > <?=  $row['dob'];?></td>
                 <td > <?= $row['gender'];?></td>

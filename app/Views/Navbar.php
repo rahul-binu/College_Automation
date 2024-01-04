@@ -224,40 +224,40 @@
         <div class="sidebar_inner">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="<?= base_url() ?>ostaff">
                   <span class="icon"><i class="fs-5 bi-house"></i></span>
                   <span class="text">Home</span>
                     </a>
                     </li>
                 <li>
-                <a href="#">
+                <a href="<?= base_url() ?>FeeManController/index">
               <span class="icon">  <i class="fs-5 bi-speedometer2"></i></span>
-              <span class="text">Dashboard</span>
+              <span class="text">Fee Dashbord</span>
                 </a>
                 </li>
           
                 <li>
-                <a href="<?= base_url()?>feeManController">
+                <a href="<?= base_url()?>feeManController/feedetailsview">
               <span class="icon">   <i class="fs-5 bi-cash-stack"></i></span>
               <span class="text">Fee's</span>
                 </a>
                 </li>
                 <li>
-                <a href="<?= base_url()?>/oStaff/Stview">
+                <a href="<?= base_url()?>oStaff/Stview">
               <span class="icon"> <i class="fs-5  bi-person-plus"></i></span>
-              <span class="text">Create Account</span>
+              <span class="text">Create User</span>
                 </a>
                 </li>
                 <li>
-                <a href="<?= base_url() ?>/oStaff">
+                <a href="<?= base_url() ?>oStaff">
               <span class="icon"> <i class="fs-5 bi-search"></i></span>
               <span class="text">View Student</span>
                 </a>
                 </li>
                 <li>
-                <a href="#">
+                <a href="<?= base_url() ?>feemancontroller/studentfeeview">
               <span class="icon"><i class="fs-5 bi-bank"></i></span>
-              <span class="text">Accounts</span>
+              <span class="text">Students fee</span>
                 </a>
                 </li>
                 <li>

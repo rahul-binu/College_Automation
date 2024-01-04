@@ -43,9 +43,13 @@
 </style>
 
 <div class="sidenav" id="mySidenav">
-  <a href="<?= base_url() ?>FeeManController/index" class="nav align-middle px-2">
+  <a href="<?= base_url() ?>oStaff" class="nav px-2 align-middle ">
     <i class="fs-4 bi-house"></i> <span>Home</span>
   </a>
+
+  <a href="<?= base_url() ?>FeeManController/index" class="nav align-middle px-2">
+  <i class="fs-4 bi-speedometer2 mx-1 py-2"></i> <span> Fee Dashbord
+    </span></a>
 
   <a href="<?= base_url() ?>oStaff" class="nav px-2 align-middle ">
     <i class="fs-4 bi bi-search"></i> <span> View
@@ -59,7 +63,7 @@
       Fee</span></a>
 
   <a href="<?= base_url() ?>FeeManController/feeDetailsView" class="nav px-2 align-middle ">
-  <i class="bi bi-bank"></i> <span>Student Fee Data
+    <i class="bi bi-bank"></i> <span>Student Fee Data
     </span></a>
 
 
