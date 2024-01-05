@@ -30,7 +30,7 @@ public function index()
             $rules = [
                 
                 'email' => 'required|valid_email',
-                'password' => 'required|min_length[8]|max_length[8]',
+                'password' => 'required|min_length[8]|max_length[18]',
 
             ];
 
@@ -47,39 +47,34 @@ public function index()
                   {
 
                    
-                        if($userdata['designation']==$deig){
+                       
 
-                            if($deig=="student"){
+                            if($userdata['designation']=="student"){
                                 
                                 $this->session->set('logged_user',$userdata['email']);
                                 $this->session->set('who',$userdata['designation']);
                                 return redirect()->to(base_url().'oStudent/');
 
-                            }else if($deig=="parent"){
+                            }else if($userdata['designation']=="parent"){
 
                                 $this->session->set('logged_user',$userdata['email']);
                                 $this->session->set('who',$userdata['designation']);
                                 return redirect()->to(base_url().'dashboard/parent');
 
-                            }else if($deig=="staff"){
+                            }else if($userdata['designation']=="staff"){
 
                                 $this->session->set('logged_user',$userdata['email']);
                                 $this->session->set('who',$userdata['designation']);
                                 return redirect()->to(base_url().'ostaff');
 
-                            }else if($deig=="admin"){
+                            }else if($userdata['designation']=="admin"){
 
                                 $this->session->set('logged_user',$userdata['email']);
                                 $this->session->set('who',$userdata['designation']);
                                 return redirect()->to(base_url().'ostaff');
 
                             }
-                        }
-                        else{
-
-                            $this->session->setTempdata('error', 'Sorry! selected designation is not matching',3);
- 
-                        }
+                    
 
                        
                   
@@ -101,4 +96,17 @@ public function index()
 
         return view('login', $data);
     }
+
+
+    
+
+    public function logout()
+    {
+     
+        session()->remove('logged_user');
+
+      
+        return redirect()->to(base_url()."login");
+    }
+
 }

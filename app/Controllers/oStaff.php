@@ -32,8 +32,12 @@ class oStaff extends Controller
     {
         if (!session()->has("logged_user")) {
 
-
+          return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if($des!='admin' && $des!='staff'){
             return redirect()->to(base_url() . "login");
+            
         }
 
         $stdview_model = new stdview_model();
@@ -43,10 +47,16 @@ class oStaff extends Controller
 
     public function register()
     {
+
         if (!session()->has("logged_user")) {
 
 
             return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if($des!='admin' && $des!='staff'){
+            return redirect()->to(base_url() . "login");
+            
         }
 
         $data = [];
@@ -130,6 +140,16 @@ class oStaff extends Controller
 
     public function update($admno)
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin' && $des!='staff'){
+              return redirect()->to(base_url() . "login");
+              
+          }
+    
         $stdview_model = new stdview_model();
         $data['std'] = $stdview_model->stdupdatemodel($admno);
 
@@ -202,23 +222,41 @@ class oStaff extends Controller
                 echo "<script>alert('student data is updated'); window.location.href = '" . base_url() . "ostaff';</script>";
                 exit;
 
-            } else {
-                echo "error";
-            }
+       
         }
-
+    }else{
+        echo "cant find admission number";
+    }
         return view("stdupdate_view", $data);
     }
 
     public function Stview()
     {
 
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin' && $des!='staff'){
+              return redirect()->to(base_url() . "login");
+              
+          }
         return view("Stview_view");
 
     }
 
     public function approve()
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin' && $des!='staff'){
+              return redirect()->to(base_url() . "login");
+              
+          }
         $data['std'] = $this->studentview->listUnapprovedStd();
         if ($this->request->getMethod() == 'post') {
 
@@ -244,6 +282,15 @@ class oStaff extends Controller
     public function delNonApprovedData($id)
     {
 
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin' && $des!='staff'){
+              return redirect()->to(base_url() . "login");
+              
+          }
         $data = $this->studentview->delete1($id);
 
         if ($data) {
@@ -260,6 +307,15 @@ class oStaff extends Controller
 
     public function adminpanel()
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin'){
+              return redirect()->to(base_url() . "login");
+              
+          }
         return view("adminpanel_view");
     }
 
@@ -267,6 +323,16 @@ class oStaff extends Controller
 
     public function addstaff()
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin'){
+              return redirect()->to(base_url() . "login");
+              
+          }
+
         if (!session()->has("logged_user")) {
 
 
@@ -352,6 +418,15 @@ class oStaff extends Controller
 
     public function updateparent($phn)
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin' && $des!='staff'){
+              return redirect()->to(base_url() . "login");
+              
+          }
         $data['parent'] = $this->dmodel->getParentdata($phn);
 
 
@@ -420,6 +495,15 @@ class oStaff extends Controller
 
     public function addparent()
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin' && $des!='staff'){
+              return redirect()->to(base_url() . "login");
+              
+          }
 
         if ($this->request->getMethod() == 'post') {
 
@@ -457,6 +541,15 @@ class oStaff extends Controller
 
     public function usersview()
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin'){
+              return redirect()->to(base_url() . "login");
+              
+          }
 
         $data['user'] = $this->registermodel->GetUsers();
         return view('usersview_view', $data);
@@ -464,11 +557,70 @@ class oStaff extends Controller
 
     public function delUser($email)
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $des = session()->get('who');
+          if($des!='admin'){
+              return redirect()->to(base_url() . "login");
+              
+          }
         if ($this->studentview->deleteUser($email)) {
-            echo "<script>alert('selected user has been deleted')</script>";
+          
+            echo "<script>alert('selected user has been deleted'); window.location.href = '" . base_url() . "ostaff/usersview';</script>";
+            exit;
         } else {
             echo "<script>alert('an error occured')</script>";
         }
+    }
+
+    public function staffprofile(){ 
+
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+          }
+          $id = session()->get('logged_user');
+
+          $data['userdata'] = $this->dmodel->getLoggedUserData($id);
+
+        return view('staffprof',$data);
+
+    }
+    public function staffeditprof()
+    {
+
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+
+        $id = session()->get('logged_user');
+
+        $data['userdata'] = $this->dmodel->getLoggedUserData($id);
+
+        if ($this->request->getMethod() == 'post') {
+
+            $password = $this->request->getVar('password');
+            $newdata = [
+
+                'username' => $this->request->getVar('username', FILTER_SANITIZE_STRING),
+
+                'password' => password_hash($password, PASSWORD_DEFAULT),
+            ];
+
+            if ($this->dmodel->upadateprof($newdata, $id)) {
+                echo "<script>alert('edited items are updated'); window.location.href = '" . base_url() . "ostaff/staffprofile';</script>";
+                exit;
+
+            } else {
+                echo "<script>alert('a problem occured');</script>";
+            }
+
+        }
+
+
+        return view('editprofstaff_view', $data);
     }
 }
 

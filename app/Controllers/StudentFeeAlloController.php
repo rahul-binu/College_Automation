@@ -12,10 +12,28 @@ class StudentFeeAlloController extends BaseController
     }
     public function index()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         echo view('studentsFeeAlocation');
     }
     public function studentFeeAllocationFilter()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         $yearOfAdmission = $this->request->getPost("yearOfAdmission");
         $accadamicYear = $this->request->getPost("accadamicYear");
         $program = $this->request->getPost("program");
@@ -29,6 +47,15 @@ class StudentFeeAlloController extends BaseController
 
     public function studentFeeAllocation()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         echo view('studentFeeAlocation');
     }
     public function test()

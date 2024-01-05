@@ -1,362 +1,254 @@
-CRITICAL - 2024-01-05 05:11:12 --> Attempt to read property "0" on array
-in APPPATH\Views\ZstudentFeeAdd.php on line 125.
- 1 APPPATH\Views\ZstudentFeeAdd.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "0" on array', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php', 125)
- 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php')
- 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ZstudentFeeAdd', [], true)
- 5 APPPATH\Controllers\FeeManController.php(390): view('ZstudentFeeAdd', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeAdd()
- 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:13:31 --> Undefined variable $checkBoxStatus
-in APPPATH\Views\ZstudentFeeAdd.php on line 143.
- 1 APPPATH\Views\ZstudentFeeAdd.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkBoxStatus', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php', 143)
- 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php')
- 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ZstudentFeeAdd', [], true)
- 5 APPPATH\Controllers\FeeManController.php(390): view('ZstudentFeeAdd', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeAdd()
- 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:14:54 --> Attempt to read property "0" on array
-in APPPATH\Views\ZstudentFeeAdd.php on line 127.
- 1 APPPATH\Views\ZstudentFeeAdd.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "0" on array', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php', 127)
- 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php')
- 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ZstudentFeeAdd', [], true)
- 5 APPPATH\Controllers\FeeManController.php(390): view('ZstudentFeeAdd', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeAdd()
- 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:18:55 --> Undefined variable $checkBoxStatus
-in APPPATH\Views\ZstudentFeeAdd.php on line 150.
- 1 APPPATH\Views\ZstudentFeeAdd.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkBoxStatus', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php', 150)
- 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php')
- 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ZstudentFeeAdd', [], true)
- 5 APPPATH\Controllers\FeeManController.php(390): view('ZstudentFeeAdd', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeAdd()
- 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:19:43 --> Undefined variable $textColor
-in APPPATH\Views\ZstudentFeeAdd.php on line 159.
- 1 APPPATH\Views\ZstudentFeeAdd.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textColor', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php', 159)
- 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\ZstudentFeeAdd.php')
- 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ZstudentFeeAdd', [], true)
- 5 APPPATH\Controllers\FeeManController.php(390): view('ZstudentFeeAdd', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeAdd()
- 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:30:29 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:30:29 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bca\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:31:23 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:31:23 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bca\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:31:24 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:31:24 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bca\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:31:52 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:31:52 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bca\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:32:50 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:32:50 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bca\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:32:51 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:32:51 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bca\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bca', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:33:08 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bsc', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:33:08 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bsc\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bsc', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:34:04 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bsc', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:34:04 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bsc\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bsc', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2024-01-05 05:34:05 --> mysqli_sql_exception: Unknown column 'a.name' in 'field list' in C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php:306
-Stack trace:
-#0 C:\xampp\htdocs\College_Automation\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT\r\n       ...', 0)
-#1 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
-#2 C:\xampp\htdocs\College_Automation\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
-#3 C:\xampp\htdocs\College_Automation\app\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
-#4 C:\xampp\htdocs\College_Automation\app\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bsc', NULL)
-#5 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
-#6 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
-#7 C:\xampp\htdocs\College_Automation\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\College_Automation\index.php(79): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2024-01-05 05:34:05 --> Unknown column 'a.name' in 'field list'
-in SYSTEMPATH\Database\BaseConnection.php on line 646.
- 1 APPPATH\Models\feeDetailsModel.php(275): CodeIgniter\Database\BaseConnection->query('SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
-        SUM(b.amount) AS total_amount
-    FROM
-        college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
-    WHERE
-        a.yearOfAdmission = \'2021\' AND b.feeAllocationYear = \'23-24\' AND a.program = \'bsc\' AND b.paidDate = \'\'
-    GROUP BY b.admissionNO')
- 2 APPPATH\Controllers\FeeManController.php(542): App\Models\feeDetailsModel->findData('2021', '23-24', 'bsc', null)
- 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
- 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
- 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:37:53 --> Undefined property: stdClass::$admissionNo
+WARNING - 2024-01-05 12:00:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-05 12:01:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:02:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:02:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:02:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:02:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:02:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-05 12:05:08 --> Undefined property: stdClass::$admissionNO
 in APPPATH\Views\studentFeeView.php on line 193.
- 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNo', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
  2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
- 5 APPPATH\Controllers\FeeManController.php(544): view('studentFeeView', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
+ 5 APPPATH\Controllers\FeeManController.php(490): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
  7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:38:49 --> Undefined property: stdClass::$admission_no
+CRITICAL - 2024-01-05 12:05:15 --> Undefined property: stdClass::$admissionNO
 in APPPATH\Views\studentFeeView.php on line 193.
- 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admission_no', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
  2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
- 5 APPPATH\Controllers\FeeManController.php(544): view('studentFeeView', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
+ 5 APPPATH\Controllers\FeeManController.php(490): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
  7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:39:01 --> Undefined property: stdClass::$admissionNo
+CRITICAL - 2024-01-05 12:05:16 --> Undefined property: stdClass::$admissionNO
 in APPPATH\Views\studentFeeView.php on line 193.
- 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNo', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
  2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
- 5 APPPATH\Controllers\FeeManController.php(544): view('studentFeeView', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
+ 5 APPPATH\Controllers\FeeManController.php(490): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
  7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:39:08 --> Undefined property: stdClass::$admissionNo
+CRITICAL - 2024-01-05 12:05:16 --> Undefined property: stdClass::$admissionNO
+in APPPATH\Views\studentFeeView.php on line 193.
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
+ 5 APPPATH\Controllers\FeeManController.php(490): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 12:05:16 --> Undefined property: stdClass::$admissionNO
+in APPPATH\Views\studentFeeView.php on line 193.
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
+ 5 APPPATH\Controllers\FeeManController.php(490): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 12:05:17 --> Undefined property: stdClass::$admissionNO
+in APPPATH\Views\studentFeeView.php on line 193.
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
+ 5 APPPATH\Controllers\FeeManController.php(490): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 12:05:19 --> Undefined property: stdClass::$admissionNO
+in APPPATH\Views\studentFeeView.php on line 193.
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
+ 5 APPPATH\Controllers\FeeManController.php(490): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-05 12:05:25 --> Undefined property: stdClass::$admissionNO
+in APPPATH\Views\studentFeeView.php on line 193.
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
+ 5 APPPATH\Controllers\FeeManController.php(499): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-05 12:06:37 --> Undefined property: stdClass::$admissionNO
 in APPPATH\Views\studentFeeView.php on line 246.
- 1 APPPATH\Views\studentFeeView.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNo', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 246)
+ 1 APPPATH\Views\studentFeeView.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNO', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 246)
  2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
- 5 APPPATH\Controllers\FeeManController.php(544): view('studentFeeView', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
+ 5 APPPATH\Controllers\FeeManController.php(499): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
  7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-CRITICAL - 2024-01-05 05:39:25 --> Undefined property: stdClass::$admissionNo
-in APPPATH\Views\studentFeeView.php on line 265.
- 1 APPPATH\Views\studentFeeView.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNo', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 265)
+INFO - 2024-01-05 12:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-05 12:07:35 --> Undefined property: stdClass::$admissionNo
+in APPPATH\Views\studentFeeView.php on line 193.
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNo', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
  2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
- 5 APPPATH\Controllers\FeeManController.php(544): view('studentFeeView', [...])
- 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studenntFeeDueFilter()
+ 5 APPPATH\Controllers\FeeManController.php(499): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
  7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-05 12:07:37 --> Undefined property: stdClass::$admissionNo
+in APPPATH\Views\studentFeeView.php on line 193.
+ 1 APPPATH\Views\studentFeeView.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$admissionNo', 'C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php', 193)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\College_Automation\\app\\Views\\studentFeeView.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('studentFeeView', [], true)
+ 5 APPPATH\Controllers\FeeManController.php(499): view('studentFeeView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FeeManController->studentFeeView()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeeManController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:15:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:16:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:17:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-05 12:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:22:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-05 12:23:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-05 12:23:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-05 12:23:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-05 12:23:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-05 12:25:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports::$reportModelObj is deprecated in APPPATH\Controllers\Reports.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-05 12:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

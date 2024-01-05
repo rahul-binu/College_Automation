@@ -156,7 +156,7 @@ include('Navbar.php');
   <div class="container py-5 h-100 mt-5">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-12 col-md-10 col-lg-4 col-sm-10 mt-5 pt-3">
-        <h3 class="text-center mb-3 text-primary">NSS College RajaKumari</h3>
+     
         <div class="card shadow-2-strong">
           <div class="card-body  text-center mt-4">
 

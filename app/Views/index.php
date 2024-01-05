@@ -14,10 +14,10 @@
             <a href="<?= base_url() ?>feemancontroller/feedetailsview">
                 <div class="card bg-info" id="functionCards">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-3 py-3">
                             <i class="bi bi-journal-plus"></i>
                         </div>
-                        <div class="col-9 py-0"><span>Fee Details</span></div>
+                        <div class="col-9 py-4"><span>Fee Details</span></div>
                     </div>
                 </div>
             </a>
@@ -26,22 +26,22 @@
             <a href="<?= base_url() ?>feemancontroller/studentfeeview">
                 <div class="card  bg-primary" id="functionCards">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-3 py-3">
                             <i class="bi bi-person-lines-fill"></i>
                         </div>
-                        <div class="col-9"><span>View Students</span></div>
+                        <div class="col-9 py-4"><span>View Students</span></div>
                     </div>
                 </div>
             </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 py-1">
-            <a href="<?= base_url() ?>usersController/registration">
+            <a href="<?= base_url() ?>reports/studentList">
                 <div class="card bg-warning" id="functionCards">
                     <div class="row">
-                        <div class="col-3">
-                            <i class="bi "></i>
+                        <div class="col-3 py-3">
+                        <i class="bi bi-list-ul"></i>
                         </div>
-                        <div class="col-9 py-0"><span>Login test</span></div>
+                        <div class="col-9 py-4"><span>Student List</span></div>
                     </div>
                 </div>
             </a>
@@ -50,10 +50,10 @@
             <a href="<?= base_url() ?>reports/index">
                 <div class="card bg-success" id="functionCards">
                     <div class="row">
-                        <div class="col-3">
-                            <i class="bi "></i>
+                        <div class="col-3 py-3">
+                        <i class="bi bi-file-earmark-bar-graph"></i>
                         </div>
-                        <div class="col-9 py-0"><span>Reports</span></div>
+                        <div class="col-9 py-4"><span>Reports</span></div>
                     </div>
                 </div>
             </a>

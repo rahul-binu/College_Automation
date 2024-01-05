@@ -14,10 +14,31 @@ class Reports extends BaseController
     }
     public function index()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         echo view('reportIndex');
     }
     public function feeReport()
     {
+        //session checking deeply checking ,take a meditation its good for health  (apelling mistake unde)
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+        }
+        //user checking in session  -- dont worry man god is with you 
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+
+        }
+
         if ($this->request->getMethod() === 'post') {
             $reportModelObj = new reportModel();
             $accadamicYear = $this->request->getPost('accadamicYear');
@@ -39,6 +60,15 @@ class Reports extends BaseController
     }
     public function yearlyDueReport()
     {
+        if (!session()->has("logged_user")) {
+
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+
+        }
         //yaerly report
         if ($this->request->getMethod() == 'post') {
             $reportModelObj = new reportModel();
@@ -48,6 +78,25 @@ class Reports extends BaseController
         } else {
             echo view('yearlyDueReport');
         }
+    }
+
+    public function studentList()
+    {
+        //student list
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
+
+        if($this->request->getMethod()==='post'){
+            echo"working";
+        }else{
+        echo view('studentList');}
     }
 }
 ?>

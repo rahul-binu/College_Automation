@@ -123,7 +123,8 @@
         <a href="<?= base_url() ?>usersController/login" class="nav-link mx-1 align-middle px-2">
             <i class="fs-4 bi-person py-2"></i> <span>Profile</span>
         </a>
-        <a href="#" class="nav-link px-2 align-middle mx-1 text-decoration-none" id="">
+        <a class="dropdown-item" href="<?= base_url()."login/logout"?>" onclick="return confirm('Are you sure you want to logout?')">
+
             <i class="fs-4 bi-box-arrow-left py-2"></i> <span>Logout</span>
         </a>
     </div>

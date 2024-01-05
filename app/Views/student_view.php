@@ -92,7 +92,7 @@
 
                                 <a class="dropdown-item" href="<?= base_url()?>oStudent/editprof"><i class="fas fa-user-pen px-1"></i> Edit profile</a>
                                 <a class="dropdown-item" href="#"><i class="fas fa-bell px-1"></i>notification</a>
-                                <a class="dropdown-item" href="<?= base_url()?>login"><i class="fas fa-right-from-bracket px-1"></i>Log out</a>
+                                <a class="dropdown-item" href="<?= base_url()."login/logout"?>" onclick="return confirm('Are you sure you want to logout?')"><i class="fas fa-right-from-bracket px-1"></i>Log out</a>
                             </div>
                         </div>
                     </li>

@@ -15,12 +15,30 @@ class FeeOps extends BaseController
     }
     public function index()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         echo view("layout/structure");
         echo view('feeHeadOperations');
     }
 
     public function fetchFeeMasterData()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         //function to fetch data from the fee master 
         $modelObj = new FeeOpsModel();
         $feeData['fee'] = $modelObj->findAll();
@@ -28,6 +46,7 @@ class FeeOps extends BaseController
     }
     public function editFeeMasterData()
     {
+
         //controller function edit the feemaster details
         $modelObj = new FeeOpsModel();
         $feeHead = $this->request->getPost('feeHead');
@@ -45,45 +64,46 @@ class FeeOps extends BaseController
             $status = $feeModelObj->FeeStstusChange($feeHead, $newStatus);
 
             if ($status == '1') {
-              // $this->index();
-             return redirect()->to('feeOps');
-             // echo $feeHead,$newStatus;
+                // $this->index();
+                return redirect()->to('feeOps');
+                // echo $feeHead,$newStatus;
             } else {
                 echo "somthing wrong";
-                echo $feeHead,$newStatus;
+                echo $feeHead, $newStatus;
             }
         }
     }
 
-    public function feeSetupStatusChange($status,$feeHead,$course){
+    public function feeSetupStatusChange($status, $feeHead, $course)
+    {
         //controller function to chane the ststus of the fee setting table 
-        $modelObj=new FeeOpsModel();
-        if($this->request->getMethod()=='get'){
-            echo $status,$feeHead;
-            $statusOfFeeDetailsStatus=$modelObj->feeDetailsStatusUpdate($feeHead,$status,$course);
-            if($statusOfFeeDetailsStatus==1){
+        $modelObj = new FeeOpsModel();
+        if ($this->request->getMethod() == 'get') {
+            echo $status, $feeHead;
+            $statusOfFeeDetailsStatus = $modelObj->feeDetailsStatusUpdate($feeHead, $status, $course);
+            if ($statusOfFeeDetailsStatus == 1) {
                 return redirect()->to('FeeManController/feeDetailsView');
-            }
-            else{
+            } else {
                 echo "pop a error message page";
             }
         }
     }
 
-    public function FeeMasterDataEdit(){
+    public function FeeMasterDataEdit()
+    {
         //function to catch fee master data and update the row
-        $modelObj=new feeOpsModel();
-        $feeHead=$this->request->getPost("feeHead");
-        $data=[
-            'fee_head'=>$this->request->getPost('feeHead'),
-            'fee_head_acro'=>$this->request->getPost('feeHeadAcro'),
-            'fee_group'=>$this->request->getPost('feeGroup'),
-            'fee_group_acro'=>$this->request->getPost('feeGroupAcro')
+        $modelObj = new feeOpsModel();
+        $feeHead = $this->request->getPost("feeHead");
+        $data = [
+            'fee_head' => $this->request->getPost('feeHead'),
+            'fee_head_acro' => $this->request->getPost('feeHeadAcro'),
+            'fee_group' => $this->request->getPost('feeGroup'),
+            'fee_group_acro' => $this->request->getPost('feeGroupAcro')
         ];
         // print_r($data);
-       $modelObj->update($feeHead,$data);
-       $message=['status'=>'Updated successfully'];
-       return $this->response->setJSON($message);
+        $modelObj->update($feeHead, $data);
+        $message = ['status' => 'Updated successfully'];
+        return $this->response->setJSON($message);
     }
 
 }

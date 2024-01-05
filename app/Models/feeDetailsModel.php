@@ -42,7 +42,7 @@ class feeDetailsModel extends Model
     {
         //data from std_fee_reg
         $connection = \Config\Database::connect();
-        $query = $connection->query("SELECT a.student_name, b.SFRID, b.admissionNo, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.Amount, b.feeAllocationYear, b.fee_head, SUM(b.amount) AS total_amount
+        $query = $connection->query("SELECT a.student_name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.Amount, b.feeAllocationYear, b.fee_head, SUM(b.amount) AS total_amount
         FROM college_automation.student a
         JOIN college_automation.std_fee_reg b ON a.admission_no = b.admissionNo
         GROUP BY b.admissionNO

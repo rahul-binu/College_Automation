@@ -79,7 +79,8 @@
     <i class="bi bi-person-check"></i> <span>Profile</span>
   </a>
 
-  <a href="#" class="nav-link px-2 align-middle  text-decoration-none" id="">
+  <a class="dropdown-item" href="<?= base_url()."login/logout"?>" onclick="return confirm('Are you sure you want to logout?')">
+
     <i class="fs-4 bi-box-arrow-left "></i> <span>Logout</span>
   </a>
 

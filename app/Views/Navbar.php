@@ -160,33 +160,23 @@
                     </div>
                   </div>
                 <button class="btn" id="a-btn"><a href=""> <img src="\project\photos\collegelogo.pn" alt="NSS COLLEGE RAJAKUMARI"> </a></button>
-                <button class="btn" id="a-btn"><a href="">Course</a></button>
-                <button class="btn" id="a-btn"><a href="">Program</a></button>
-                <div class="btn-group">
-                    <button class="btn  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                        id="top-drp-btn">
-                        Student
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="top-drp-option">
-                        <li><a class="dropdown-item" href="/regform/regform_view">Add Student</a></li>
-                        <li><a class="dropdown-item" href="#">Remove Student</a></li>
-                        <li><a class="dropdown-item" href="#">Update Student</a></li>
-                        <li><a class="dropdown-item" href="#">View Student</a></li>
-                        <li><a class="dropdown-item" href="#">Fee Student</a></li>
-                        <li><a class="dropdown-item" href="#">Exam Student</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                                <button class="btn  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" id="top-drp-btn">
-                                    Accounts
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="top-drp-option">
-                                    <li><a class="dropdown-item" href="#">Status</a></li>
-                                    <li><a class="dropdown-item" href="#">Report</a></li>
-                                    <li><a class="dropdown-item" href="#">XL</a></li>
-                                </ul>
+               
+                            <div class="dropdown show ps-3">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Reports
+
+                            </a>
+
+                            <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                            <button type="button" class="dropdown-item" data-toggle="modal" data-target="#myModal">student report</button>
+                            <button type="button" class="dropdown-item" data-toggle="modal" data-target="#myModal">Xl data</button>
+
+                                
                             </div>
+                            </div>
+
+
                             <div class="dropdown show ps-3">
                             <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -196,11 +186,11 @@
 
                             <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
                             <button type="button" class="dropdown-item" data-toggle="modal" data-target="#myModal">Generate TC</button>
-                            <button type="button" class="dropdown-item" data-toggle="modal" data-target="#myModal">Generate TC</button>
+                            <button type="button" class="dropdown-item" data-toggle="modal" data-target="#myModal">Generate cc</button>
 
                                 
                             </div>
-                        </div>
+                            </div>
                         
           <?php
            if(session()->has("logged_user")){
@@ -261,13 +251,15 @@
                 </a>
                 </li>
                 <li>
-                <a href="#">
+                <a href="<?= base_url() ?>ostaff/staffprofile">
               <span class="icon"><i class="fs-5 bi-person"></i></span>
               <span class="text">Profile</span>
+              
                 </a>
                 </li>
                 <li>
-                <a href="<?= base_url()?>login">
+                <a class="dropdown-item" href="<?= base_url()."login/logout"?>" onclick="return confirm('Are you sure you want to logout?')">
+
               <span class="icon">  <i class="fs-5 bi-box-arrow-left"></i></span>
               <span class="text">Logout</span>
                 </a>

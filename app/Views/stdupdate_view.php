@@ -331,60 +331,58 @@ html, body {
 
     <!-- explode -->
     <?php
-    $k = $row['hs'];
-    $values = explode(",", $k);
 
+  $k = $row['hs'];
+  $values = explode(",", $k);
+  
+  $var1 = array(); 
+  
 
-$var1 = null;
+      foreach ($values as $value) {
+          $pair = explode(":", $value);
+  
+          if ($pair[0] == 'hs_name') {
+              $var1['hs_name'] = $pair[1];
+          } elseif ($pair[0] == 'hs_mark') {
+              $var1['hs_mark'] = $pair[1];
+          } elseif ($pair[0] == 'hs_percentage') {
+              $var1['hs_percentage'] = $pair[1];
+          } elseif ($pair[0] == 'hs_sylabus') {
+              $var1['hs_sylabus'] = $pair[1];
+          } elseif ($pair[0] == 'hs_passout') {
+              $var1['hs_passout'] = $pair[1];
+          }
+      }
 
-
-
-foreach ($values as $value) {
-   
-    
-    $pair = explode(":", $value);
-
-    
-    if ($pair[0] == 'hs_name') {
-        $var1['hs_name'] = $pair[1];
-       
-    } elseif ($pair[0] == 'hs_mark') {
-        $var1['hs_mark'] = $pair[1];
-    }elseif ($pair[0] == 'hs_percentage') {
-      $var1['hs_percentage'] = $pair[1];
-  }elseif ($pair[0] == 'hs_sylabus') {
-    $var1['hs_sylabus'] = $pair[1];
-}elseif ($pair[0] == 'hs_passout') {
-  $var1['hs_passout'] = $pair[1];
-}
-}
+  
+  
 ?>
 
 
 
         <div class="col-md-3">
       <label for="inputadno" class="form-label">HS Name</label>
-      <input type="text" class="form-control" id="inputadno" name="hsnm" value="<?= $var1['hs_name'];?>">
+      <input type="text" class="form-control" id="inputadno" name="hsnm" value="<?= isset($var1['hs_name']) ? $var1['hs_name'] : ''; ?>">
     </div>
 
     <div class="col-md-3">
       <label for="inputadno" class="form-label">HS Exam</label>
-      <input type="text" class="form-control" id="inputadno" name="hssyl"  placeholder="sslc/other" value="<?= $var1['hs_sylabus'];?>">
+      <input type="text" class="form-control" id="inputadno" name="hssyl"  placeholder="sslc/other" value="<?= isset($var1['hs_sylabus']) ? $var1['hs_sylabus'] : ''; ?>">
     </div>
 
     <div class="col-md-2">
       <label for="inputadno" class="form-label">HS Pass Out Year</label>
-      <input type="number" class="form-control" id="inputadno" name="hsyr" value="<?= $var1['hs_passout'];?>">
+      <input type="number" class="form-control" id="inputadno" name="hsyr" value="<?= isset($var1['hs_passout']) ? $var1['hs_passout'] : ''; ?>">
     </div>
 
     <div class="col-md-2">
       <label for="inputadno" class="form-label">HS Marks</label>
-      <input type="number" class="form-control" id="inputadno" name="hsmrk" value="<?= $var1['hs_mark'];?>">
+      <input type="number" class="form-control" id="inputadno" name="hsmrk" value="<?= isset($var1['hs_mark']) ? $var1['hs_mark'] : ''; ?>">
     </div>
 
     <div class="col-md-2">
       <label for="inputadno" class="form-label">HS Percentage</label>
-      <input type="text" class="form-control" id="inputadno" name="hsperce" value="<?= $var1['hs_percentage'];?>">
+      <input type="text" class="form-control" id="inputadno" name="hsperce" value="<?= isset($var1['hs_percentage']) ? $var1['hs_percentage'] : ''; ?>">
     </div>
 
 
@@ -421,27 +419,27 @@ foreach ($values as $value) {
 
     <div class="col-md-3">
       <label for="inputadno" class="form-label">HSS Name</label>
-      <input type="text" class="form-control" id="inputadno" name="hssnm" value="<?= $var2['hss_name'];?>">
+      <input type="text" class="form-control" id="inputadno" name="hssnm" value="<?= isset($var2['hss_name']) ? $var2['hss_name'] : ''; ?>">
     </div>
 
     <div class="col-md-3">
       <label for="inputadno" class="form-label">HSS Exam</label>
-      <input type="text" class="form-control" id="inputadno" name="hsssyl"  placeholder="+2/VHSC" value="<?= $var2['hss_sylabus'];?>">
+      <input type="text" class="form-control" id="inputadno" name="hsssyl"  placeholder="+2/VHSC" value="<?= isset($var2['hss_sylabus']) ? $var2['hss_sylabus'] : ''; ?>">
     </div>
 
     <div class="col-md-2">
       <label for="inputadno" class="form-label">HSS Pass Out Year</label>
-      <input type="number" class="form-control" id="inputadno" name="hssyr" value="<?= $var2['hss_passout'];?>">
+      <input type="number" class="form-control" id="inputadno" name="hssyr" value="<?= isset($var2['hss_passout']) ? $var2['hss_passout'] : ''; ?>">
     </div>
 
     <div class="col-md-2">
       <label for="inputadno" class="form-label">HSS Marks</label>
-      <input type="number" class="form-control" id="inputadno" name="hssmrk" value="<?= $var2['hss_mark'];?>">
+      <input type="number" class="form-control" id="inputadno" name="hssmrk" value="<?= isset($var2['hss_mark']) ? $var2['hss_mark'] : ''; ?>">
     </div>
 
     <div class="col-md-2">
       <label for="inputadno" class="form-label">HSS Percentage</label>
-      <input type="text" class="form-control" id="inputadno" name="hssperce" value="<?= $var2['hss_percentage'];?>">
+      <input type="text" class="form-control" id="inputadno" name="hssperce" value="<?= isset($var2['hss_percentage']) ? $var2['hss_percentage'] : ''; ?>">
     </div>
 
 
@@ -481,22 +479,22 @@ foreach ($values as $value) {
 
     <div class="col-md-3" id="input1">
       <label for="inputadno" class="form-label">Activity-1</label>
-      <input type="text" class="form-control" id="inputadno" name="act1" value="<?= $var3['act1'];?>">
+      <input type="text" class="form-control" id="inputadno" name="act1" value="<?= isset($var3['act1']) ? $var3['act1'] : ''; ?>">
     </div>
 
     <div class="col-md-3" id="input2">
       <label for="inputadno" class="form-label">Activity-2</label>
-      <input type="text" class="form-control" id="inputadno" name="act2" value="<?= $var3['act2'];?>">
+      <input type="text" class="form-control" id="inputadno" name="act2" value="<?= isset($var3['act2']) ? $var3['act2'] : ''; ?>">
     </div>
 
     <div class="col-md-3" id="input3">
       <label for="inputadno" class="form-label">Activity-3</label>
-      <input type="text" class="form-control" id="inputadno" name="act3" value="<?= $var3['act3'];?>">
+      <input type="text" class="form-control" id="inputadno" name="act3" value="<?= isset($var3['act3']) ? $var3['act3'] : ''; ?>">
     </div>
 
     <div class="col-md-3" id="input4">
       <label for="inputadno" class="form-label">Activity-4</label>
-      <input type="text" class="form-control" id="inputadno" name="act4" value="<?= $var3['act4'];?>">
+      <input type="text" class="form-control" id="inputadno" name="act4" value="<?= isset($var3['act4']) ? $var3['act4'] : ''; ?>">
     </div>
      
     

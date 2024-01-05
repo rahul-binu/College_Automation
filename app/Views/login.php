@@ -51,17 +51,7 @@
                 placeholder="Email adress" required/>
             </div>
 
-            <div class="form-outline mb-4">
-             
-              <select id="input" class="form-select" name="designation" required >
-                <option value="">Designation</option>
-                <option value="staff">Office staff</option>
-                <option value="student">Student</option>
-                <option value="parent">Parent</option>
-                <option value="admin">Admin</option>
-              
-              </select>
-            </div>
+          
 
             <div class="form-outline mb-4">
               <div class="col">

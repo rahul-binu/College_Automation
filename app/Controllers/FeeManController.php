@@ -23,6 +23,15 @@ class FeeManController extends BaseController
     }
     public function index()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         // echo view('/layout/structure');
         echo view('index');
     }
@@ -80,6 +89,15 @@ class FeeManController extends BaseController
     }
     public function feeAdd($feeHead)
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         //fee add
         $formInputData = [];
         if ($this->request->getMethod() == 'post') {
@@ -374,6 +392,15 @@ class FeeManController extends BaseController
     }
     public function studentFeeAdd()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         //save data to the std_fee_reg table
         //function to fetch students and provide support for allocate fee
         $feeDetailsModelobj = new feeDetailsModel();
@@ -474,6 +501,15 @@ class FeeManController extends BaseController
 
     public function studentFeeView()
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         //display students and their fee details
         $feeDetailsModelobj = new feeDetailsModel();
         //changed the model function to studentFeeDetailsFetch form studentfeepay
@@ -497,6 +533,15 @@ class FeeManController extends BaseController
     }
     public function stdFeeBill($admno = null)
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         //geting the admno from the studentfeeView and used for pay(create bill) fees of the admno
         $feeDetailsModelobj = new feeDetailsModel();
         $data['fees'] = $feeDetailsModelobj->feeDataBill($admno);
@@ -508,6 +553,15 @@ class FeeManController extends BaseController
     }
     public function feeAllocation($admno, $yearOfAdm, $programme)
     {
+        //session and user management
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
+        $des = session()->get('who');
+        if ($des != 'admin' && $des != 'staff') {
+            return redirect()->to(base_url() . "login");
+        }
+        //session and user management end
         //function to allocate fee for students studentfee alocation
         $feeDetailsModelobj = new feeDetailsModel();
         if (isset($admno)) {
