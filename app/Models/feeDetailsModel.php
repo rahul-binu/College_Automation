@@ -188,7 +188,7 @@ class feeDetailsModel extends Model
             $resultData = $query->getResult();
             $query2 = $con->query("SELECT fee_head,totalAmount,applicableFrom,applicableTill,accadamicYear,collectionRemark FROM `fee_settings` WHERE(accadamicYear='$accadamicYear'AND Programme='$program' OR programme='all' )");
             $feeRes = $query2->getResult();
-            $query3 = $con->query("SELECT DISTINCT admissionNo FROM std_fee_reg;");
+            $query3 = $con->query("SELECT DISTINCT admissionNo FROM std_fee_reg WHERE `feeAllocationYear`='$accadamicYear'");
             $existingStudent = $query3->getResult();
 
             $passingArray['students'] = $resultData;
@@ -231,17 +231,6 @@ class feeDetailsModel extends Model
                 return false;
             }
         }
-        //   echo $yearofadm, $program, $admno;
-        //   if (($yearofadm != null) && ($program != null)) {
-        //       $query2 = $con->query("SELECT * FROM fee_settings WHERE (program='$program'AND yearOfAdmission='$yearofadm')");
-        //       $feeResult = $query2->getResult();
-        //       if (!empty($feeResult)) {
-        //           //  return $feeResult;
-        //           print_r($feeResult);
-        //       } else {
-        //           return false;
-        //       }
-        //   }
     }
     public function accadamicYearFetch()
     {
@@ -273,11 +262,11 @@ class feeDetailsModel extends Model
         //student fee due data filter
         $connection = \Config\Database::connect();
         $query = $connection->query("SELECT
-        a.name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
+        a.student_name, b.SFRID, b.admissionNO, a.program, b.dueDate, b.paidDate, a.yearOfAdmission, b.feeAllocationYear, b.amount, b.fee_head,
         SUM(b.amount) AS total_amount
     FROM
         college_automation.student a
-    JOIN college_automation.std_fee_reg b ON a.admissionNo = b.admissionNO
+    JOIN college_automation.std_fee_reg b ON a.admission_no = b.admissionNO
     WHERE
         a.yearOfAdmission = '$yearOfAdmission' AND b.feeAllocationYear = '$feeAllocationYear' AND a.program = '$program' AND b.paidDate = '$status'
     GROUP BY b.admissionNO");

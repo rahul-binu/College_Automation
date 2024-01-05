@@ -14,11 +14,11 @@ class StudentFeeOpsModel extends Model
     {
         $connection = \Config\Database::connect();
         $query = $connection->query("SELECT
-        a.name,b.SFRID,b.admissionNO,a.programme,b.dueDate,b.paidDate,a.yearOfAdmission,b.accadamicYear,
+        a.student_name,b.SFRID,b.admissionNO,a.programme,b.dueDate,b.paidDate,a.yearOfAdmission,b.accadamicYear,
         SUM(b.amount) AS total_amount
     FROM
-        fee_management.student a
-    JOIN fee_management.std_fee_reg b ON a.admissionNo = b.admissionNO
+        college_automation.student a
+    JOIN college_automation.std_fee_reg b ON a.admission_no = b.admissionNO
     WHERE
         a.yearOfAdmission = '$yearOfAdmission'AND b.accadamicYear = '$accadamicYear'AND a.programme = '$program'
     GROUP BY b.admissionNO;

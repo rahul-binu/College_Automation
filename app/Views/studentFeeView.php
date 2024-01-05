@@ -190,7 +190,7 @@ include('layout/structure.php');
                                                 <div class="row">
                                                     <div class="col">Admission No :</div>
                                                     <div class="col">
-                                                        <?= $stdinfo->admissionNo?>
+                                                        <?= $stdinfo->admissionNO?>
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -243,7 +243,7 @@ include('layout/structure.php');
                                         <?= $i ?>
                                     </td>
                                     <td>
-                                        <?= $stdinfo->admissionNo?>
+                                        <?= $stdinfo->admissionNO?>
                                     </td>
                                     <td>
                                         <?= $stdinfo->student_name ?>
@@ -262,7 +262,7 @@ include('layout/structure.php');
                                     </td>
                                     <!--<td><?= "paid amount"?></td>-->
                                     <td id="tableAction">
-                                        <a href="<?= base_url() ?>feemanController/stdFeeBill/<?= $stdinfo->admissionNo ?>">
+                                        <a href="<?= base_url() ?>feemanController/stdFeeBill/<?= $stdinfo->admissionNO ?>">
                                             <button type="button" class="btn btn-primary" id="f-bill-pay-btn"><i
                                                     class="bi bi-credit-card-2-back-fill"></i></button></a>
                                         <!--  <button type="button" class="btn btn-primary float-right" data-bs-toggle="modal"
