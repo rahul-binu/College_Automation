@@ -118,11 +118,30 @@ if (isset($_POST['yearOfAdmission'])) {
                                                 ?>
                                         <tr>
                                             <td>
-                                                <?= $i++ ?>
+                                                <?= $i++;
+                                                $j=0;
+                                                for($j = 0;$j< count($data['existingStudents']);$j++){
+                                                    echo "=====<br>";
+                                                    echo $j;
+
+                                                }
+                                                foreach ($data['existingStudents'] as $studentAdmissionNO){
+                                                    print_r($studentAdmissionNO) ;
+
+                                                    if($studentAdmissionNO->admissionNo == $student->admission_no){
+                                                        $textColor = "text-success";
+                                                        $checkBoxStatus="display:none";
+                                                    }else{
+                                                        $textColor = "";
+                                                        $checkBoxStatus="";
+                                                    }
+                                                    
+                                                    $j++;
+                                                }?>
                                             </td>
                                             <td>
                                                 <input type="checkbox" name="admissionNo[]" value="<?= $student->admission_no ?>"
-                                                    class="check-input">
+                                                    class="check-input" style="<?= $checkBoxStatus ?>">
                                             </td>
                                             <td>
                                                 <input type="text" id="" value="<?= $student->admission_no ?>" readonly>
@@ -131,7 +150,7 @@ if (isset($_POST['yearOfAdmission'])) {
                                                 <input type="text" value="<?= $fee->accadamicYear ?>"
                                                     name="studentAccadamicYear" style="display:none;">
                                                 <input type="text" id="" name="studentName[]" value="<?= $student->student_name ?>"
-                                                    readonly>
+                                                    readonly class="<?= $textColor ?>">
                                             </td>
                                             <td>
                                                 <input type="text" id="studentPayableAmount" name="studentPayableAmount[]"

@@ -188,9 +188,12 @@ class feeDetailsModel extends Model
             $resultData = $query->getResult();
             $query2 = $con->query("SELECT fee_head,totalAmount,applicableFrom,applicableTill,accadamicYear,collectionRemark FROM `fee_settings` WHERE(accadamicYear='$accadamicYear'AND Programme='$program' OR programme='all' )");
             $feeRes = $query2->getResult();
+            $query3 = $con->query("SELECT DISTINCT admissionNo FROM std_fee_reg;");
+            $existingStudent = $query3->getResult();
 
             $passingArray['students'] = $resultData;
             $passingArray['fees'] = $feeRes;
+            $passingArray['existingStudents']=$existingStudent;
             //            echo'<pre>';
 //            print_r($feeRes);
             if (!empty($passingArray)) {

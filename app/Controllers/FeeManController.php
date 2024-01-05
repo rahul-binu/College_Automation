@@ -403,14 +403,6 @@ class FeeManController extends BaseController
                 //         $feeDetailsModelobj->studetnFeeAlloCrossCheck($admno[$j], $feeHead[$i], $accadamicYearData);
                 //     }
                 // }
-                // echo '<pre>';
-                // print_r($feeHead);
-                // print_r($feeHead);
-                // print_r($feeAmout);
-                // print_r($applicableTill);
-                // print_r($studentUniqeID);
-                //  print_r($collectionRemark);
-                // echo '<hr>';
 
                 $studentFeeData = array();
 
