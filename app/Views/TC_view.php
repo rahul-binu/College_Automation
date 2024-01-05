@@ -119,6 +119,7 @@
             </div>
 
             <?php
+            if(!empty($stddata)):
                 $pro =  $stddata->program;
                 if ($pro == 'BCA') {
                     $cour = 'Computer Application';
@@ -244,5 +245,5 @@
 
 </html>
 
-
+<?php endif;?>
 

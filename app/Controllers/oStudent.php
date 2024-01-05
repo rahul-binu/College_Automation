@@ -33,6 +33,9 @@ class oStudent extends Controller
 
     public function index()
     {
+        if (!session()->has("logged_user")) {
+            return redirect()->to(base_url() . "login");
+        }
         $id = session()->get('logged_user');
 
         $data['userdata'] = $this->dmodel->getLoggedUserData($id);

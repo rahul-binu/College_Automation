@@ -63,7 +63,7 @@
       Fee</span></a>
 
   <a href="<?= base_url() ?>FeeManController/feeDetailsView" class="nav px-2 align-middle ">
-    <i class="bi bi-bank"></i> <span>Student Fee Data
+  <i class="bi bi-currency-rupee"></i> <span>Student Fee Data
     </span></a>
 
 

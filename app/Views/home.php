@@ -128,22 +128,22 @@ include("student_view.php");
         const xValues = ["month 1", "month 2", "month 3", "month 4", "month 5"];
         // Replace these values with your new y-values ranging from 0 to 100
 
-        const month1 = 70;
-        const month2 = 95;
-        const month3 = 75;
-        const month4 = 64;
-        const month5 = 60;
+        const month1 = 15;
+        const month2 = 18;
+        const month3 = 9;
+        const month4 = 20;
+        const month5 = 3;
 
         const yValues = [month1, month2, month3, month4, month5];
 
         const barColors = yValues.map(value => {
-            if (value >= 85) {
+            if (value >= 20) {
                 return "green";
-            } else if (value >= 75) {
+            } else if (value >= 16) {
                 return "yellow";
-            } else if (value >= 65) {
+            } else if (value >= 12) {
                 return "orange";
-            } else if (value <= 64) {
+            } else if (value <= 8) {
                 return "red";
             } else {
                 return "red";
