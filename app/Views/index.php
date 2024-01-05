@@ -35,7 +35,7 @@
             </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 py-1">
-            <a href="<?= base_url() ?>reports/studentList">
+            <a href="<?= base_url() ?>oStaff">
                 <div class="card bg-warning" id="functionCards">
                     <div class="row">
                         <div class="col-3 py-3">

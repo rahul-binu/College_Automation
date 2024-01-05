@@ -114,7 +114,7 @@
         <a href="<?= base_url() ?>oStaff" class="nav-link align-middle mx-1 px-2" id="homeButton">
             <i class="fs-4 bi-house"></i> <span>Home</span>
         </a>
-        <a href="/uproject/" class="nav-link px-2 mx-1 align-middle">
+        <a href="<?= base_url()?>FeeManController/index" class="nav-link px-2 mx-1 align-middle">
             <i class="fs-4 bi-speedometer2 mx-1 py-2"></i> <span>Old Dashboard</span> </a>
         <a href="<?= base_url() ?>FeeManController/studentfeeview" class="nav-link px-2 align-middle ">
             <i class="fs-4 bi bi-patch-plus mx-1 py-2"></i> <span> View student Fee</span></a>

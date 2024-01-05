@@ -24,7 +24,7 @@ class FeeOps extends BaseController
             return redirect()->to(base_url() . "login");
         }
         //session and user management end
-        echo view("layout/structure");
+       // echo view("layout/structure");
         echo view('feeHeadOperations');
     }
 

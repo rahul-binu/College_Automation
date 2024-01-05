@@ -1,3 +1,6 @@
+<section id="theam">
+<?php echo view('/layout/structure');?>
+</section>
 <style>
     #new-fee a {
         color: black;
@@ -7,6 +10,11 @@
     label span {
         color: red;
         font-size: 20px;
+    }
+    @media print{
+        #theam,#new-fee,#table-btn{
+            display:none;
+        }
     }
 </style>
 
@@ -60,13 +68,29 @@
                 <div class="col">
                     <h3>Fee Master Details</h3>
                 </div>
+                <div class="col">
+
+                </div>
             </div>
             <br>
-            <div id="new-fee" class="mb-4">
-                <a href="<?= base_url() ?>FeeManController/feeHeadAdd">
-                    <span class="mx-1">Add New Fee Masters</span><i class="bi bi-plus-circle"></i>
-                </a>
+            <div class="row">
+                <div id="new-fee" class="col-6 mb-4">
+                    <a href="<?= base_url() ?>FeeManController/feeHeadAdd">
+                        <span class="mx-1">Add New Fee Masters</span><i class="bi bi-plus-circle"></i>
+                    </a>
+                </div>
+                <div class="col-6 text-end" id="table-btn">
+                <button type="button" class="btn btn-secondary" onclick="print()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-floppy" viewBox="0 0 16 16">
+                            <path d="M11 2H9v3h2z" />
+                            <path
+                                d="M1.5 0h11.586a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13A1.5 1.5 0 0 1 1.5 0M1 1.5v13a.5.5 0 0 0 .5.5H2v-4.5A1.5 1.5 0 0 1 3.5 9h9a1.5 1.5 0 0 1 1.5 1.5V15h.5a.5.5 0 0 0 .5-.5V2.914a.5.5 0 0 0-.146-.353l-1.415-1.415A.5.5 0 0 0 13.086 1H13v4.5A1.5 1.5 0 0 1 11.5 7h-7A1.5 1.5 0 0 1 3 5.5V1H1.5a.5.5 0 0 0-.5.5m3 4a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V1H4zM3 15h10v-4.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5z" />
+                        </svg></button>
+                </div>
             </div>
+
+
             <!-- <div class="row mb-3  d-flex justify-content-end ">
                 <div class="col-sm-12 col-md-6 col-lg-2 mx-5">
                         <input type="search" class="form-control form-control-sm" placeholder="Fee Head">
@@ -82,8 +106,8 @@
                             <th>Sl No</th>
                             <th>Fee group</th>
                             <th>Fee head</th>
-                            <th>Status</th>
-                            <th>Operations</th>
+                            <th id="table-btn">Status</th>
+                            <th id="table-btn">Operations</th>
                         </tr>
                     </thead>
                     <tbody class="tableBody">
@@ -254,7 +278,7 @@
             <td>' + serialNumber + '</td>\
             <td>' + value['fee_group'] + ' (' + value['fee_group_acro'] + ')' + '</td>\
             <td><span id="feeHead">' + value['fee_head'] + '</span> (' + value['fee_head_acro'] + ')' + '</td>\
-            <td>\
+            <td id="table-btn">\
             <button class="btn '+ statusButtonClass + '" data-toggle="modal" data-target="#feeStatusModal' + serialNumber + '">' + statusButtonText + '  </button>\
             <div class="modal fade align-center modal-sm " id="feeStatusModal'+ serialNumber + '" >\
                                                 <div class="modal-dialog modal-dialog-centered" role="document">\
@@ -262,7 +286,7 @@
                                                     <div class="modal-body">\
                                                       <p class="text-center ">Do you want to change status to '+ newStatusButtonText + '? </p>\
                                                       <div class="row d-flex justify-content-center">\
-                                                          <div class="col-6 d-flex justify-content-center">\
+                                                          <div class="col-6 d-flex justify-content-center" >\
                                                           <a href="<?= base_url(); ?>feeOps/feeStatus/'+ value['fee_head'] + '/' + newStatus + '"><button class="btn btn-success"> Yes </button>\</a>\
                                                           </div>\
                                                           <div class="col-6 d-flex justify-content-center"> <button data-dismiss="modal"class="btn btn-danger">No</button> </div>\
@@ -271,7 +295,7 @@
                                                   </div>\
                                                 </div>\
                                             </div></td>\
-                                            <td>\
+                                            <td id="table-btn">\
                             <a href="" class="btn btn-primary edit_button" data-toggle="modal" data-target="#feeUpdateModal"><i class="bi bi-pencil"></i></a>\
                             ' + (value['status'] == 1 ? '<a href="<?= base_url() ?>feeManController/feeadd/' + value['fee_head'] + '"><button class="btn btn-info"><i class="bi bi-plus"></i></button></a>' : '<button class="btn btn-warning"><i class="bi bi-plus"></i></button>') + '\
                         </td>\

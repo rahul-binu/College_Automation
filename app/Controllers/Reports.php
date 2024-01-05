@@ -92,11 +92,15 @@ class Reports extends BaseController
             return redirect()->to(base_url() . "login");
         }
         //session and user management end
-
-        if($this->request->getMethod()==='post'){
-            echo"working";
-        }else{
-        echo view('studentList');}
+        $reportModelObj = new reportModel();
+        if ($this->request->getMethod() === 'post') {
+            $acdY = $this->request->getPost('accadamicYear');
+            $program = $this->request->getPost('program');
+            $data['students'] = $reportModelObj->studentList($acdY, $program);
+            echo view('studentList', $data);
+        } else {
+            echo view('studentList');
+        }
     }
 }
 ?>

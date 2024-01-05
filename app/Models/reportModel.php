@@ -47,24 +47,33 @@ class ReportModel extends Model
         std_fee_reg.feeAllocationYear
     ");
 
-  //      $query1 = $connection->query("SELECT
-  //      student.admissionNo,
-  //      student.name,
-  //      student.programme,
-  //      SUM(std_fee_reg.Amount)AS TotalAmt,
-  //      std_fee_reg.feeAllocationYear
-  //  FROM
-  //      student
-  //  JOIN
-  //      std_fee_reg ON student.admissionNo = std_fee_reg.admissionNO
-  //  WHERE
-  //      std_fee_reg.admissionNO = student.admissionNo
-  //      AND std_fee_reg.feeAllocationYear = '$year'
-  //  GROUP BY
-  //      student.admissionNo;
-  //  
-  //      ");
+        //      $query1 = $connection->query("SELECT
+        //      student.admissionNo,
+        //      student.name,
+        //      student.programme,
+        //      SUM(std_fee_reg.Amount)AS TotalAmt,
+        //      std_fee_reg.feeAllocationYear
+        //  FROM
+        //      student
+        //  JOIN
+        //      std_fee_reg ON student.admissionNo = std_fee_reg.admissionNO
+        //  WHERE
+        //      std_fee_reg.admissionNO = student.admissionNo
+        //      AND std_fee_reg.feeAllocationYear = '$year'
+        //  GROUP BY
+        //      student.admissionNo;
+        //  
+        //      ");
 
+        $resData = $query->getResult();
+        return ($resData);
+    }
+
+    public function studentList($acdY = null, $program = null)
+    {
+        $connection = \Config\Database::connect();
+        $query = $connection->query("SELECT * FROM student WHERE `yearOfAdmission`= '$acdY' AND  `program` = '$program'
+    ");
         $resData = $query->getResult();
         return ($resData);
     }
