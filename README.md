@@ -96,7 +96,7 @@ The College Office Automation System is a comprehensive, web-based solution desi
 
 ## Technology Stack
 
-- Frontend: HTML, CSS, JavaScript, Ajax, JQuery
+- Frontend: HTML, CSS, JavaScript, Ajax, JQuerygi
 - Backend: CodeIgniter 4 framework
 - Database: MySQL
 
