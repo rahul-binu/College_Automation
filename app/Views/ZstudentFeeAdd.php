@@ -121,6 +121,8 @@ if (isset($_POST['yearOfAdmission'])) {
                                                 <?= $i++; ?>
                                             </td>
                                             <?php
+                                            $checkBoxStatus= null;
+                                            $textColor = null;
                                             for ($j = 0; $j < count($data['existingStudents']); $j++) {
                                                 $existingStd = $data['existingStudents'][$j]->admissionNo;
                                                 $thisStudent = $student->admission_no;
