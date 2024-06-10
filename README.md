@@ -1,5 +1,3 @@
-# CodeIgniter 4 Framework
-
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
@@ -96,7 +94,7 @@ The College Office Automation System is a comprehensive, web-based solution desi
 
 ## Technology Stack
 
-- Frontend: HTML, CSS, JavaScript, Ajax, JQuerygi
+- Frontend: HTML, CSS, JavaScript, Ajax, JQuery
 - Backend: CodeIgniter 4 framework
 - Database: MySQL
 
